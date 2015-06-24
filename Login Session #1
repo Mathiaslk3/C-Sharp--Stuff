@@ -34,6 +34,6 @@ public partial class Admin_MasterPage : System.Web.UI.MasterPage
     {
         //on click for Logout Button
         Session.Abandon();
-        Response.Redirect("http://localhost:55153/Default.aspx");
+        Response.Redirect("Default.aspx");
     }
 }
